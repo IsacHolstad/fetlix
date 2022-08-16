@@ -25,30 +25,36 @@ main h1{
     height: 130px;
     display: inline-flex;
     margin: 20px;
-    
+    padding-left: 5px;
     
    
 }
+
 .container :hover{
     border: 2px solid white;
 }
+
 button{
     background-color: transparent;
     width: 120px;
     height: 25px;
-    border: 1px solid lightgray;
+    border: 1px solid darkgray;
     border-radius: 5px;
-  
-}
-div button {
-    margin: auto;
-    align-items: center;
+
 }
 
 button a{
     color: darkgray;
-    
-    
     text-decoration: none;
+    font-weight: 600;
 
 }
+
+button  :hover{
+    color: lightgrey;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    border: 0;
+
+}
+

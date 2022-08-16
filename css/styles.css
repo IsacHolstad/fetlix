@@ -21,10 +21,14 @@ main h1{
     font-size: 22px;
 }
 .container{
-    width: 55px;
-    height: 55px;
+    width: 100px;
+    height: 130px;
     display: inline-flex;
-    
     margin: 20px;
-    background-color: white;
+    
+    
+   
+}
+.container :hover{
+    border: 2px solid white;
 }

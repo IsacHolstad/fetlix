@@ -2,19 +2,29 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-
-    
-
-
 }
+
 body{
     background-color: black;
 }
+
 .netflix-header-logo{
     width: 150px;
     padding-left: 15px;
     padding-top: 15px;
 }
+
 main h1{
     color: white;
+    text-align: center;
+    padding-top: 55px;
+    font-size: 22px;
+}
+.container{
+    width: 55px;
+    height: 55px;
+    display: inline-flex;
+    
+    margin: 20px;
+    background-color: white;
 }

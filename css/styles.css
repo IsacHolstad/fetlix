@@ -38,11 +38,16 @@ button{
     height: 25px;
     border: 1px solid lightgray;
     border-radius: 5px;
+  
+}
+div button {
     margin: auto;
+    align-items: center;
 }
 
 button a{
     color: darkgray;
+    
     
     text-decoration: none;
 

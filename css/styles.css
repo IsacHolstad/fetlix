@@ -20,7 +20,7 @@ main h1{
     padding-top: 55px;
     font-size: 22px;
 }
-.container{
+.container {
     width: 100px;
     height: 130px;
     display: inline-flex;
@@ -31,4 +31,19 @@ main h1{
 }
 .container :hover{
     border: 2px solid white;
+}
+button{
+    background-color: transparent;
+    width: 120px;
+    height: 25px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: auto;
+}
+
+button a{
+    color: darkgray;
+    
+    text-decoration: none;
+
 }

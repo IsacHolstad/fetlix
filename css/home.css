@@ -33,10 +33,11 @@ li a{
     margin: 5px;
 }
 footer{
-    height: 250px;
+    height: 300px;
     padding-top: 55px;
-    margin-top: 50px;
+    margin-top: 80px;
     width: 100%;
+    border: 1px solid white;
     
 }
 footer a{
@@ -45,4 +46,8 @@ footer a{
     width: 25px;
     object-fit: contain;
     padding-left: 55px;
+}
+
+footer img{
+    width: 55px;
 }

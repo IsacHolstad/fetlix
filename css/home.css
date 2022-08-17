@@ -26,3 +26,23 @@ li a{
     color: white;
 
 }
+.movie-container{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 5px;
+}
+footer{
+    height: 250px;
+    padding-top: 55px;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+footer a{
+    padding-top: 55px;
+    background-color: transparent;
+    width: 25px;
+    object-fit: contain;
+    padding-left: 55px;
+}

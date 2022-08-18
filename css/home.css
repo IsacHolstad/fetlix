@@ -17,13 +17,16 @@ body{
 ul li{
     display: inline;
     margin: 5px;
-    text-align: center;
-    position: relative;
+    text-align: left;
+    
+    padding-left: 55px;
+    
     
 }
 li a{
     text-decoration: none;
     color: white;
+   
 
 }
 main{

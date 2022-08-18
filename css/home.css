@@ -27,10 +27,14 @@ li a{
 
 }
 .movie-container{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: lightgray;
     margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 footer{
     height: 300px;

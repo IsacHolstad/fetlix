@@ -34,8 +34,9 @@ main img {
 }
 
 
-.container :hover{
-    border: 2px solid white;
+ main img:hover{
+    
+    box-shadow: white 0px 20px 30px -10px;
 }
 
 button{

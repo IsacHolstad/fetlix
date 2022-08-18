@@ -29,10 +29,13 @@ li a{
 main{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 .movie-container{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: lightgray;
     margin: 5px;
    
@@ -44,6 +47,8 @@ footer{
     padding-top: 55px;
     margin-top: 80px;
     width: 100%;
+    position: absolute;
+    top: 2055px;
     border: 1px solid white;
     
 }

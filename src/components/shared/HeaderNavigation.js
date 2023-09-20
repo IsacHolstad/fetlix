@@ -11,7 +11,7 @@ function classNames(...classes) {
 
 export default function HeaderNavigation() {
     return (
-        <Disclosure as="nav" className="bg-white shadow">
+        <Disclosure as="nav" className="bg-black shadow">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -24,37 +24,37 @@ export default function HeaderNavigation() {
                                     {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                                     <a
                                         href="#"
-                                        className="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
+                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-gray-300 hover:text-gray-300"
                                     >
                                         Startpage
                                     </a>
                                     <a
                                         href="#"
-                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-gray-300 hover:text-gray-300"
                                     >
                                         Series
                                     </a>
                                     <a
                                         href="#"
-                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-gray-300 hover:text-gray-300"
                                     >
                                         Movies
                                     </a>
                                     <a
                                         href="#"
-                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-gray-300 hover:text-gray-300"
                                     >
                                         New and Popular
                                     </a>
                                     <a
                                         href="#"
-                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-gray-300 hover:text-gray-300"
                                     >
                                         My list
                                     </a>
                                     <a
                                         href="#"
-                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-gray-300 hover:text-gray-300"
                                     >
                                         Browse by language
                                     </a>
@@ -63,13 +63,13 @@ export default function HeaderNavigation() {
                             <div className="hidden sm:ml-6 sm:flex sm:items-center">
                                 <button
                                     type="button"
-                                    className="relative rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                    className="relative rounded-full bg-black p-1 text-gray-400 hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                                 >
                                     <span className="absolute -inset-1.5" />
                                     <span className="sr-only">View notifications</span>
                                     <div className="flex gap-2">
-                                        <MagnifyingGlassIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
-                                        <BellIcon className="h-6 w-6" aria-hidden="true" />
+                                        <MagnifyingGlassIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                                        <BellIcon className="h-6 w-6 text-white" aria-hidden="true" />
                                     </div>
                                 </button>
 
